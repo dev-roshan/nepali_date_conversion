@@ -1,6 +1,6 @@
 <?php
 
-namespace Shankhadev\Bsdate;
+namespace devroshan\Bsdate;
 
 use App\Http\Controllers\Controller;
 
