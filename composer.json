@@ -1,20 +1,27 @@
+
 {
     "name": "dev-roshan/bsdate",
     "description": "A simple package that convert AD to BS and viceversa.",
-    "keywords": ["Nepali Date", "Bikramsambat"],
+    "type": "project",
     "license": "MIT",
+    "keywords":[
+        "Nepali Date",
+        "Bikramsambat"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "authors": [
         {
-            "name": "Roshan Bhandari",
+            "name": "Roshan",
             "email": "roshan.bhandari2050@gmail.com"
         }
     ],
     "require": {
-	"php": ">=5.5.9"
+        "php": ">=5.5.9"
     },
     "autoload": {
         "psr-4": {
-            "dev-roshan\\Bsdate\\": "src/Bsdate/"
+          "dev-roshan\\Bsdate\\": "src/"
         }
     }
 }
