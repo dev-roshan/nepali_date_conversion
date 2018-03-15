@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-          "dev-roshan\\Bsdate\\": "src/"
+          "devroshan\\Bsdate\\": "src/"
         }
     }
 }
