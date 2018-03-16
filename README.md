@@ -9,8 +9,9 @@ A laravel date package which convert AD to BS and viceversa.
 
 #Installation
 1) In order to install Laravel 5 Laravelbsdate,go to your project folder and open terminal and run the following code
+```php
 composer require devroshan/bsdate 
-
+```
 
 2) Open your `config/app.php` and add the following to the `providers` array:
 
