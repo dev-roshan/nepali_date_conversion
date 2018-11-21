@@ -8,7 +8,7 @@
         "Nepali Date",
         "Bikramsambat"
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "authors": [
         {
