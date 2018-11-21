@@ -409,6 +409,9 @@ class BsdateController extends Controller
             $numDay = $day;
             $this->_nep_date['year'] = $this->convert_to_nepali_number($y);
             $this->_nep_date['month'] = $this->convert_to_nepali_number($m);
+            if($this->_nep_date['month']<10){
+                $this->_nep_date['month']="0".$this->_nep_date['month'];
+            }
             $this->_nep_date['date'] = $this->convert_to_nepali_number($total_nDays);
             if($this->_nep_date['date']<10){
                 $this->_nep_date['date']="0".$this->_nep_date['date'];
